@@ -11,6 +11,9 @@ rational::rational() {
 rational::rational(int num) {
 
 }
+rational::rational(int num, int den) {
+
+}
 
 rational::rational(std::string str) {
 
