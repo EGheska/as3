@@ -6,6 +6,8 @@
 #define AS3_RATIONAL_H
 
 #include <string>
+#include <iostream>
+
 
 class rational {
 public:
@@ -29,6 +31,14 @@ public:
     void num(int n);
     void den(int d);
     void str(std::string s);
+
+    int gcd(int a, int b);
+
+private:
+    int _num;
+    int _denum;
+
+
 };
 
 
