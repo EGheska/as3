@@ -201,6 +201,30 @@ rational_calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/as3.dir/build.make CMakeFiles/as3.dir/rational_calculator.cpp.s
 .PHONY : rational_calculator.cpp.s
 
+rational_processor.o: rational_processor.cpp.o
+.PHONY : rational_processor.o
+
+# target to build an object file
+rational_processor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/as3.dir/build.make CMakeFiles/as3.dir/rational_processor.cpp.o
+.PHONY : rational_processor.cpp.o
+
+rational_processor.i: rational_processor.cpp.i
+.PHONY : rational_processor.i
+
+# target to preprocess a source file
+rational_processor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/as3.dir/build.make CMakeFiles/as3.dir/rational_processor.cpp.i
+.PHONY : rational_processor.cpp.i
+
+rational_processor.s: rational_processor.cpp.s
+.PHONY : rational_processor.s
+
+# target to generate assembly for a file
+rational_processor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/as3.dir/build.make CMakeFiles/as3.dir/rational_processor.cpp.s
+.PHONY : rational_processor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... rational_calculator.o"
 	@echo "... rational_calculator.i"
 	@echo "... rational_calculator.s"
+	@echo "... rational_processor.o"
+	@echo "... rational_processor.i"
+	@echo "... rational_processor.s"
 .PHONY : help
 
 

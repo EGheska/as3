@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/as3.dir/rational.cpp.o.d"
   "CMakeFiles/as3.dir/rational_calculator.cpp.o"
   "CMakeFiles/as3.dir/rational_calculator.cpp.o.d"
+  "CMakeFiles/as3.dir/rational_processor.cpp.o"
+  "CMakeFiles/as3.dir/rational_processor.cpp.o.d"
   "as3"
   "as3.pdb"
 )

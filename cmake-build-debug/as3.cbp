@@ -97,6 +97,12 @@
 		<Unit filename="/home/dima/CLionProjects/ass3/rational_calculator.h">
 			<Option target="as3"/>
 		</Unit>
+		<Unit filename="/home/dima/CLionProjects/ass3/rational_processor.cpp">
+			<Option target="as3"/>
+		</Unit>
+		<Unit filename="/home/dima/CLionProjects/ass3/rational_processor.h">
+			<Option target="as3"/>
+		</Unit>
 		<Unit filename="/home/dima/CLionProjects/ass3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
