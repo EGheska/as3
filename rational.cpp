@@ -21,7 +21,6 @@ rational::rational(int num, int den) : _denum{den}, _num{num} {
         this->_denum = _denum * (-1);
         this->_num = _num * (-1);
     }
-    //if den is negative and num is positive => both values multiply with (-1_
     if(_num > 0 && _denum < 0){
         this->_num = _num * (-1);
         this->_denum = _denum * (-1);
@@ -31,7 +30,7 @@ rational::rational(int num, int den) : _denum{den}, _num{num} {
 rational::rational(std::string str) {
     auto index = str.find('/');
     _num = std::stoi(str.substr(0, index));
-    _denum = std::stoi(str.substr(index, std::string::npos));
+    _denum = std::stoi(str.substr(index+1, std::string::npos));
 }
 
 int rational::num() const {

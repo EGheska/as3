@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.19"
@@ -38,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "as3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-as3-Debug-bec5cc24586a44889833.json",
+					"jsonFile" : "target-as3-Debug-5592b0ae7e77090e38d6.json",
 					"name" : "as3",
 					"projectIndex" : 0
 				}
@@ -48,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/dimooon/CLionProjects/as3/cmake-build-debug",
-		"source" : "/Users/dimooon/CLionProjects/as3"
+		"build" : "/home/dima/CLionProjects/ass3/cmake-build-debug",
+		"source" : "/home/dima/CLionProjects/ass3"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 2
+		"minor" : 4
 	}
 }
