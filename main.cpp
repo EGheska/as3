@@ -1,6 +1,7 @@
 #include <iostream>
 #include "rational.h"
 #include "rational_calculator.h"
+#include "rational_processor.h"
 
 int main() {
 //    rational r(3,4);
@@ -32,5 +33,6 @@ int main() {
    //calculator.calculate(power);
    // TODO: check the subs. Implement GCD
    //calculator.calculate(subs);
+   rational_processor processor("name.txt");
    return 0;
 }

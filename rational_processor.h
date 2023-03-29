@@ -10,8 +10,9 @@
 #include <iostream>
 
 class rational_processor {
+public:
     rational_processor(std::string filename);
-    std::string process(rational_calculator calculator, std::string filename);
+    std::string process(std::string filename);
 };
 
 
