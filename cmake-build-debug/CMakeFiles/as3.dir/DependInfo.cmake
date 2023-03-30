@@ -4,14 +4,23 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/dimooon/CLionProjects/as3/main.cpp" "/Users/dimooon/CLionProjects/as3/cmake-build-debug/CMakeFiles/as3.dir/main.cpp.o"
+  "/Users/dimooon/CLionProjects/as3/src/rational.cpp" "/Users/dimooon/CLionProjects/as3/cmake-build-debug/CMakeFiles/as3.dir/src/rational.cpp.o"
+  "/Users/dimooon/CLionProjects/as3/src/rational_calculator.cpp" "/Users/dimooon/CLionProjects/as3/cmake-build-debug/CMakeFiles/as3.dir/src/rational_calculator.cpp.o"
+  "/Users/dimooon/CLionProjects/as3/src/rational_processor.cpp" "/Users/dimooon/CLionProjects/as3/cmake-build-debug/CMakeFiles/as3.dir/src/rational_processor.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dima/CLionProjects/ass3/main.cpp" "CMakeFiles/as3.dir/main.cpp.o" "gcc" "CMakeFiles/as3.dir/main.cpp.o.d"
-  "/home/dima/CLionProjects/ass3/rational.cpp" "CMakeFiles/as3.dir/rational.cpp.o" "gcc" "CMakeFiles/as3.dir/rational.cpp.o.d"
-  "/home/dima/CLionProjects/ass3/rational_calculator.cpp" "CMakeFiles/as3.dir/rational_calculator.cpp.o" "gcc" "CMakeFiles/as3.dir/rational_calculator.cpp.o.d"
-  "/home/dima/CLionProjects/ass3/rational_processor.cpp" "CMakeFiles/as3.dir/rational_processor.cpp.o" "gcc" "CMakeFiles/as3.dir/rational_processor.cpp.o.d"
   )
 
 # Targets to which this target links.
